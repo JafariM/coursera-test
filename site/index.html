@@ -11,8 +11,28 @@ a{
 	text-decoration: none;
 	background: blue;
 	color: white;
-	margin-bottom: 10px;
+	margin-bottom: 5px;
+	display: block;
+	width: 250px;
+	text-align: center;
+}
 
+a:hover , a:active{
+
+background-color: yellow;
+color: black;
+font-size: 15px;
+
+}
+
+div p:nth-child(odd){
+	background:gray;
+	color: white;
+}
+
+div p:nth-child(3):hover{
+	font-size: 25px;
+	color:red;
 }
 
 </style>
@@ -27,9 +47,16 @@ a{
 </header>
 <body>
 	<h1>Hello Coursera!</h1>
-	<h4>First page.</h4>
-	<p>This is the first paragraph</p>
-	<p>This is the first paragraph</p>
+	<div>
+		<p>This is a paragraph</p>
+		<p>This is a paragraph</p>
+		<p>This is a paragraph</p>
+		<p>This is a paragraph</p>
+		<p>This is a paragraph</p>
+		<p>This is a paragraph</p>
+		<p>This is a paragraph</p>
+		<p>This is a paragraph</p>
+	</div>
 
 </body>
 </html>
